@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/holiday.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  color: white;
+}
+
+a {
+  color: #77e027;
+  font-weight: bold;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.prompt {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 5px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #23d3ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 14px 24px;
+  font-size: 16px;
+}
+
+.holiday-itinerary {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #77e027;
+  box-shadow: 0px 4px 30px 0px rgba(30, 33, 66, 0.03);
+  border-radius: 5px;
+}

@@ -8,52 +8,54 @@
     <title>AI Travel Planner</title>
   </head>
   <body>
-    <header>
-      <h1>AI Travel Planner</h1>
-      <h2>3 day itinerary for your next trip</h2>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Travel Planner</h1>
+        <h2>3 day itinerary for your next trip</h2>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the city you would like to
-        explore"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a destination you would like to explore"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        Location here e.g. Tulum, Mexico
-        <br />
-        Travel plan sorted in days
-      </div>
-    </main>
+        <div class="holiday-itinerary">
+          Location here e.g. Tulum, Mexico
+          <br />
+          Travel plan sorted in days
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/SoniaJayat" target="_blank"
-        >Sonia Jayatheesan</a
-      >
-      is
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/SoniaJayat" target="_blank"
+          >Sonia Jayatheesan</a
+        >
+        is
 
-      <a
-        href="https://github.com/SoniaJayat/travel-itinerary-ai-generator"
-        target="_blank"
-        >open-sourced on GitHub
-      </a>
-      and
+        <a
+          href="https://github.com/SoniaJayat/travel-itinerary-ai-generator"
+          target="_blank"
+          >open-sourced on GitHub
+        </a>
+        and
 
-      <a
-        href="https://ai-travel-itinerary-generator.netlify.app/"
-        target="_blank"
-      >
-        hosted on Netlify</a
-      >
-    </footer>
+        <a
+          href="https://ai-travel-itinerary-generator.netlify.app/"
+          target="_blank"
+        >
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
