@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Travel Planner</title>
   </head>
   <body>
@@ -15,7 +16,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="travel-generator-form">
           <input
             type="text"
             placeholder="Enter a destination you would like to explore"
@@ -27,11 +28,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="holiday-itinerary">
-          Location here e.g. Tulum, Mexico
-          <br />
-          Travel plan sorted in days
-        </div>
+        <div class="holiday-itinerary" id="holiday"></div>
       </main>
 
       <footer>
