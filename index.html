@@ -17,20 +17,23 @@
       </header>
 
       <main>
-        <form id="travel-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a destination you would like to explore"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="travel-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a holiday destination..."
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">e.g. Bali, Cancun, Croatia</div>
+        </div>
 
-        <div class="holiday-itinerary" id="holiday"></div>
+        <div class="holiday hidden" id="holiday"></div>
       </main>
 
       <footer>
