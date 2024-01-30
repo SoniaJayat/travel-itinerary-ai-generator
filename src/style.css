@@ -14,12 +14,12 @@ h1 {
   line-height: 1.5;
   color: white;
   text-align: center;
-  text-decoration: underline;
+  border: 2px solid #5fdbe7;
 }
 
 h2 {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 
@@ -29,13 +29,13 @@ form {
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 30px;
   color: white;
 }
 
 a {
-  color: #ff49ad;
+  color: #5fe5f4;
 }
 
 .container {
@@ -84,6 +84,7 @@ a {
 .holiday h1 {
   color: black;
   text-decoration: none;
+  border: none;
 }
 .holiday h2 {
   color: black;
